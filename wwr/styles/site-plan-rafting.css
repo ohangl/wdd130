@@ -1,5 +1,5 @@
-/* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans&display=swap');
 
 :root {
   --primary-color: #FFFFFF;
@@ -8,17 +8,17 @@
   --accent2-color: #F3E5B0;
   --heading-font: 'Montserrat', sans-serif;
   --paragraph-font: 'Open Sans', sans-serif;
-  --nav-bg-color: var(--secondary-color);
+  --nav-background-color: var(--secondary-color);
   --nav-link-color: var(--primary-color);
   --nav-hover-link-color: var(--accent1-color);
-  --nav-hover-bg-color: var(--accent2-color);
+  --nav-hover-background-color: var(--accent2-color);
 }
+
 
 .logo {
-  width: 150px; /* Ajusta según tus necesidades */
+  width: 150px;
   height: auto;
 }
-
 
 body {
   font-family: var(--paragraph-font);
@@ -40,15 +40,18 @@ p {
   padding: 10px;
 }
 
+
 nav {
-  background-color: var(--nav-bg-color);
+  background-color: var(--nav-background-color);
 }
 
-nav a {
+nav a,
+nav a:link,
+nav a:visited {
   color: var(--nav-link-color);
 }
 
 nav a:hover {
   color: var(--nav-hover-link-color);
-  background-color: var(--nav-hover-bg-color);
+  background-color: var(--nav-hover-background-color);
 }

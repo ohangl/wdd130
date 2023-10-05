@@ -2,17 +2,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 :root {
-  --primary-color: #396e94;
-  --secondary-color: #e7c24f;
-  --accent1-color: #a43312;
-  --accent2-color: #381d2a;
-  --heading-font: 'Roboto', sans-serif;
-  --paragraph-font: 'Arial', sans-serif;
-  --nav-bg-color: #e7c24f;
-  --nav-link-color: #396e94;
-  --nav-hover-link-color: #ffffff;
-  --nav-hover-bg-color: #a43312;
+  --primary-color: #FFFFFF;
+  --secondary-color: #ddbc4d;
+  --accent1-color: #000000;
+  --accent2-color: #F3E5B0;
+  --heading-font: 'Montserrat', sans-serif;
+  --paragraph-font: 'Open Sans', sans-serif;
+  --nav-bg-color: var(--secondary-color);
+  --nav-link-color: var(--primary-color);
+  --nav-hover-link-color: var(--accent1-color);
+  --nav-hover-bg-color: var(--accent2-color);
 }
+
+.logo {
+  width: 150px; /* Ajusta según tus necesidades */
+  height: auto;
+}
+
 
 body {
   font-family: var(--paragraph-font);

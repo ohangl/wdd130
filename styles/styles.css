@@ -1,6 +1,4 @@
-main {
-    max-width: 840px;
-}
+
 
 nav {
     background-color: steelblue;
@@ -19,6 +17,9 @@ h1 {
     color: steelblue;
 }
 
+main {
+    max-width: 840px;
+}
 main img {
     width: 150px;
     height: auto;

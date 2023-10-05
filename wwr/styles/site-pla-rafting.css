@@ -1,0 +1,48 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+:root {
+  --primary-color: #396e94;
+  --secondary-color: #e7c24f;
+  --accent1-color: #a43312;
+  --accent2-color: #381d2a;
+  --heading-font: 'Roboto', sans-serif;
+  --paragraph-font: 'Arial', sans-serif;
+  --nav-bg-color: #e7c24f;
+  --nav-link-color: #396e94;
+  --nav-hover-link-color: #ffffff;
+  --nav-hover-bg-color: #a43312;
+}
+
+body {
+  font-family: var(--paragraph-font);
+  max-width: 960px;
+  padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+
+header {
+  padding: 10px;
+  background-color: var(--secondary-color);
+}
+
+p {
+  padding: 10px;
+}
+
+nav {
+  background-color: var(--nav-bg-color);
+}
+
+nav a {
+  color: var(--nav-link-color);
+}
+
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-bg-color);
+}

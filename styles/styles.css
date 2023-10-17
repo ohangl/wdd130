@@ -1,4 +1,9 @@
-
+/* universal */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 nav {
     background-color: steelblue;
@@ -28,14 +33,24 @@ main img {
     box-shadow: 0 0 30px gray;
 }
 
-aside {
-    width: 20rem;
+/* Class Selectors */
+.box {
     margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0,0,0,.1);
     padding: 1rem;
-    background-color: #eee;
-    color: #080707;
+    background-color: #ddd;
+    color: #000;
+  }
+
+/* profile image  */
+.profile-image {
+    float: right;
+  }
+
+aside {
+    width: 20em;
     text-align: center;
+    position: relative;
 }
 
 aside img {

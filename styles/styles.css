@@ -31,6 +31,7 @@ main img {
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
 }
 
 /* Class Selectors */
@@ -46,6 +47,11 @@ main img {
 .profile-image {
     float: right;
   }
+  
+.temples {
+  margin-top: 2rem; /* Ajusta el margen superior según tus necesidades */
+  }
+
 
 aside {
     width: 20em;

@@ -157,12 +157,12 @@ form {
     padding: 0.5rem;
     border: 1px solid rgb(0, 0, 0);
     border-radius: .8rem;
-    background-color: rgb(168, 188, 187);
+    background-color: #ddbc4d;
     display: grid;
 }
 
 label, input, button, select, textarea {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Montserrat', sans-serif, 'Arial Narrow', Arial, sans-serif;
 }
 
 label {

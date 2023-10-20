@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=YourFontName&display=swap');
+
+
+
+:root {
+  --primary-color: #FFFFFF;
+  --secondary-color: #000000;
+  --accent1-color: #grey;
+  
+}
+
+body {
+  max-width: 1200px;
+  margin: auto;
+  font-family: 'AngelaChacon', sans-serif;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 1em;
+}
+
+.logo img {
+  width: 100px
+}
+
+nav {
+  display: flex;
+  gap: 20px; }
+
+
+nav a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  padding: 0.5em 1em;
+}
+
+
+.hero {
+  position: relative;
+}
+
+.hero img, .happy-client img {
+  width: 50%;
+  display: block;
+  height: auto;
+}
+.hero h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--primary-color);
+}
+
+article {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+article img {
+  float: right;
+}
+article p {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 1em;
+}
+
+
+footer a img {
+  text-decoration: none;
+}
+
+nav.sociallinks a img {
+  width: 30px;
+  height: auto;
+  margin-right: 10px;
+}

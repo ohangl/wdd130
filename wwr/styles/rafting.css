@@ -47,6 +47,7 @@ header nav a {
     padding: 10px 5px;
 }
 
+
 .hero {
 
     margin-bottom: 15px;
@@ -147,6 +148,18 @@ footer {
 
 .sociallinks a {
     text-decoration: none;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 

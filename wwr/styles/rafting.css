@@ -221,6 +221,54 @@ article a{
     place-self: center;
 }
 
+.cta {
+    text-align: center;
+    background-color: var(--thirdColor);
+    padding: 2rem;
+    margin: 2rem 0;
+}
+
+.cta-button {
+    background-color: var(--secondColor);
+    color: var(--firstColor);
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.cta-button:hover {
+    background-color: var(--fourthColor);
+}
+
+.trip-table {
+    width: 100%;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.trip-table table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    border: 2px solid var(--thirdColor);
+}
+
+.trip-table th, .trip-table td {
+    border: 1px solid var(--thirdColor);
+    padding: 1rem;
+    font-size: larger;
+}
+
+.trip-table th {
+    background-color: var(--thirdColor);
+    color: var(--firstColor);
+}
+
+.trip-table tr:nth-child(even) {
+    background-color: var(--fourthColor);
+}
+
 footer {
   display: flex;
   flex-direction: column-reverse;

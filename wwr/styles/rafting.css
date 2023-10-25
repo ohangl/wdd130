@@ -269,6 +269,40 @@ article a{
     background-color: var(--fourthColor);
 }
 
+/* Styling the photos section */
+.photos {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; 
+    margin-top: 2rem;
+}
+
+.photos > div {
+    display: flex;
+    align-items: center; 
+    gap: 1rem; 
+}
+
+
+.photos > div:nth-child(1) img {
+    order: 2;
+}
+
+.photos > div:nth-child(2) img {
+    order: 1;
+}
+
+
+.photos h1 {
+    text-align: center;
+    flex: 1; 
+}
+
+form {
+    margin-top: 2rem;
+}
+
+
 footer {
   display: flex;
   flex-direction: column-reverse;
